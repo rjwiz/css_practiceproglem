@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.headerinner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo{
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
+.headerlist {
+  list-style: none;
+  display: flex;
+  
+}
+.headerlist li+li{
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+}
+main{
+  width: 100%;
+  position: relative;
+}
+.fv{
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.fv img{
+  width: 50vw;
+  z-index: 0;
+}
+.fvmessage{
+  padding-top: 25%;
+  font-size: 60px;
+  line-height: 1.0;
+}
+.fvcontent {
+  background-color: blue;
+  width: 70vw;
+  height: 15vh;
+}
